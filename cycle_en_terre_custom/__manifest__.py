@@ -12,6 +12,7 @@
     'version': '11.0.0.0.1',
 
     'depends': [
+        'product_seeds',
         'stock',
         'sale',
     ],
@@ -19,6 +20,7 @@
     'data': [
         'report/report_stockpicking_operations.xml',
         'report/sale_report.xml',
+        'views/sale_views.xml',
     ],
     'installable': True,
 }
